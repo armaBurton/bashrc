@@ -14,6 +14,7 @@ alias start='npm run start'
 alias setup='npm run setup'
 alias pcc='ssh arma.burton15@cslinux.pcc.edu'
 alias psu='ssh arma@linux.cs.pdx.edu'
+alias psu='ssh arma@cs302lab.cs.pdx.edu'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
