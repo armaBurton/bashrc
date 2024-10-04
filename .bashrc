@@ -28,3 +28,6 @@ export NVM_DIR="$HOME/.nvm"
 
 #Step 3: Log in Without a Password
 #ssh username@server_ip_address
+
+#Step 4: Create an alias for loggin in to the Server
+#alias aliasName='ssh username@server_ip_address
