@@ -18,3 +18,12 @@ alias psu='ssh arma@linux.cs.pdx.edu'
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+#Step 1: Generate an SSH Key Pair (if you don't have one)
+#ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+#Step 2: Copy the Public Key to the Server
+#ssh-copy-id username@server_ip_address
+
+#Step 3: Log in Without a Password
+#ssh username@server_ip_address
