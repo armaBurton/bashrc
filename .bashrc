@@ -18,6 +18,8 @@ alias psu='ssh arma@linux.cs.pdx.edu'
 alias lab='ssh arma@cs302lab.cs.pdx.edu'
 alias gpp='g++ -std=c++17 *.cpp *.o -g -Wall -o main'
 
+set bell-style none
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -33,3 +35,6 @@ export NVM_DIR="$HOME/.nvm"
 
 #Step 4: Create an alias for loggin in to the Server
 #alias aliasName='ssh username@server_ip_address
+
+#GREP recursive number filename directory
+#grep -r -n "file.name" ./
