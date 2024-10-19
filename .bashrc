@@ -1,3 +1,4 @@
+set bell-style none
 alias cd..='cd ..'
 
 function acp(){
