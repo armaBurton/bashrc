@@ -4,3 +4,4 @@
 #But Not These Files
 !.gitignore
 !.bashrc
+!.vimrc
