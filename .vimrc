@@ -7,6 +7,8 @@ set relativenumber
 set cursorline
 set tabstop=4
 set t_Co=256
+set noerrorbells
+set visualbell
 filetype plugin indent on
 highlight cursorline cterm=none ctermbg=235
 highlight MatchParen NONE
