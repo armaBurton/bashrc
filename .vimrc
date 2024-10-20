@@ -1,3 +1,4 @@
+colorscheme molokai
 set autoindent
 set smartindent
 set shiftwidth=4
@@ -12,8 +13,8 @@ set visualbell
 filetype plugin indent on
 highlight cursorline cterm=none ctermbg=235
 highlight MatchParen NONE
-highlight MatchParen cterm=underline gui=underline
+highlight MatchParen ctermbg=none ctermfg=yellow cterm=underline gui=underline
+
 syntax enable
-colorscheme molokai
 
 syntax on
