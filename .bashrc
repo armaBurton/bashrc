@@ -14,7 +14,7 @@ alias pcc='ssh arma.burton15@cslinux.pcc.edu'
 alias psu='ssh arma@linux.cs.pdx.edu'
 alias lab='ssh arma@cs302lab.cs.pdx.edu'
 #alias gpp='g++ -std=c++17 *.cpp *.o -g -Wall -o main'
-alias gpp='g++ -std=c++17 *.cpp -g'
+alias gpp='g++ -std=c++17 *.cpp -g -Wall'
 alias cd..='cd ..'
 
 set bell-style none
