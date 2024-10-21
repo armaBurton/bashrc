@@ -14,7 +14,5 @@ filetype plugin indent on
 highlight cursorline cterm=none ctermbg=235
 highlight MatchParen NONE
 highlight MatchParen ctermbg=none ctermfg=yellow cterm=underline gui=underline
-
 syntax enable
-
 syntax on
