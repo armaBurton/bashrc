@@ -17,6 +17,11 @@ highlight MatchParen ctermbg=none ctermfg=yellow cterm=underline gui=underline
 syntax enable
 syntax on
 
+autocmd BufNewFile,BufRead *.tpp setfiletype cpp
+
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
+
 set showtabline=2
 set tabpagemax=15
 set tabline=%!TabLine()
