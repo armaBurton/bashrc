@@ -17,7 +17,7 @@ highlight MatchParen ctermbg=none ctermfg=yellow cterm=underline gui=underline
 syntax enable
 syntax on
 
-autocmd BufNewFile,BufRead *.tpp setfiletype cpp
+autocmd BufNewFile,BufRead *.tpp set filetype=cpp
 
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
