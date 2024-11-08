@@ -6,3 +6,5 @@
 !.bashrc
 !.inputrc
 !.vimrc
+!/.vim/
+!/.vim/**

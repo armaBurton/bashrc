@@ -1,6 +1,4 @@
-alias cd..='cd ..'
-
-function acp(){
+acp(){
     git add -A;
     git commit -m "$1";
     git push;
@@ -15,9 +13,13 @@ alias setup='npm run setup'
 alias pcc='ssh arma.burton15@cslinux.pcc.edu'
 alias psu='ssh arma@linux.cs.pdx.edu'
 alias lab='ssh arma@cs302lab.cs.pdx.edu'
-alias gpp='g++ -std=c++17 *.cpp *.o -g -Wall -o main'
+#alias gpp='g++ -std=c++17 *.cpp *.o -g -Wall -o main'
+alias gpp='g++ -std=c++17 *.cpp -g -Wall'
+alias cd..='cd ..'
 
 set bell-style none
+
+TERM=xterm-256color
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -36,4 +38,4 @@ export NVM_DIR="$HOME/.nvm"
 #alias aliasName='ssh username@server_ip_address
 
 #GREP recursive number filename directory
-#greop -r -n "file.name" ./
+#grep -r -n "file.name" ./
