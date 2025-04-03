@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =7
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/u/arma/Classes/24-25/Winter25/CS302/cs302-001-arma-burton-prog02backup2'
 let g:netrw_dirhist_7='/u/arma/Classes/Fall24/CS302/Ass/cs302-001-prog01/.git'
 let g:netrw_dirhist_6='/u/arma/Classes/Fall24/CS302/Ass/cs302-001-prog01/.git/logs'
 let g:netrw_dirhist_5='/u/arma/Classes/Fall24/CS302/Ass/cs302-001-prog01/.git'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_2='/u/arma/Classes/Fall24/CS302/Ass/cs302-001-prog01/.git/br
 let g:netrw_dirhist_1='/u/arma/Classes/Fall24/CS302/Ass/cs302-001-prog01/.git'
 let g:netrw_dirhist_0='/u/arma/Classes/Fall24/CS302/Ass/cs302-001-prog01/.git/refs'
 let g:netrw_dirhist_9='/u/arma/Classes/Fall24/CS302/Ass/cs302-001-prog01/.git'
-let g:netrw_dirhist_8='/u/arma/Classes/Fall24/CS302/Ass/cs302-001-prog01/.git/logs'

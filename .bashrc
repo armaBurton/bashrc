@@ -15,8 +15,8 @@ alias psu='ssh arma@linux.cs.pdx.edu'
 alias bab='ssh arma@babbage.cs.pdx.edu'
 alias lab='ssh -i ~/.ssh/id_rsa_lab arma@cs302lab.cs.pdx.edu'
 alias cs350='cd ~/Classes/24-25/Fall24/CS350'
-alias cs302='cd ~/Classes/24-25/Winter25/CS302'
-alias gpp='g++ -std=c++17 *.cpp -g -Wall'
+alias cs302='cd ~/Classes/24-25/Spring25/cs302'
+alias gpp='g++ -std=c++17 *.cpp *.h -g -Wall'
 alias cd..='cd ..'
 
 set bell-style none
