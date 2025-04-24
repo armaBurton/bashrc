@@ -4,6 +4,12 @@ acp(){
     git push;
 }
 
+github(){
+    eval "$(ssh-agent -s)"
+    ssh-add ~/.ssh/id_rsa_github
+    ssh -T git@github.com
+}
+
 alias proj='cd "d:/001 work/projects/"'
 
 alias initBackendDeps='npm i @babel/core @babel/eslint-parser @babel/eslint-plugin @babel/plugin-syntax-class-properties @faker-js/faker @types/jest @types/pg bcryptjs cookie-parser cors cross-env dot-env dotenv eslint express express-validator jest jsonwebtoken nodemon pg prettier'
